@@ -1,0 +1,406 @@
+"Model","Mean_Accuracy","Drift_Count","Batch","most_important","model","l2_coef","l2der_coef"
+"KSWIN","1.998657","10",10,"feature_4","rf",1,1
+"PageHinkley","2.057447","3",10,"feature_4","rf",1,1
+"PDD_C","2.011223","8",10,"feature_4","rf",1,1
+"PDD_1","2.05032","1",10,"feature_4","rf",1,1
+"PDD_2","2.008353","9",10,"feature_4;feature_2","rf",1,1
+"PDD_3","2.005376","7",10,"feature_4;feature_2;feature_1","rf",1,1
+"Base Test","1.663922","0",10,"feature_4","rf",1,1
+"Base Train","0.7430855","0",10,"feature_4","rf",1,1
+"batch sizes","5332","1334",10,"feature_4","rf",1,1
+"KSWIN","2.835634","10",10,"feature_4","linear",1,1
+"PageHinkley","2.832767","5",10,"feature_4","linear",1,1
+"PDD_C","2.833247","3",10,"feature_4","linear",1,1
+"PDD_1","2.843796","4",10,"feature_4","linear",1,1
+"PDD_2","2.843037","5",10,"feature_4;feature_2","linear",1,1
+"PDD_3","2.842191","6",10,"feature_4;feature_2;feature_1","linear",1,1
+"Base Test","2.643223","0",10,"feature_4","linear",1,1
+"Base Train","2.592646","0",10,"feature_4","linear",1,1
+"batch sizes","5332","1334",10,"feature_4","linear",1,1
+"KSWIN","3.336439","10",10,"feature_4","tree",1,1
+"PageHinkley","3.359554","9",10,"feature_4","tree",1,1
+"PDD_C","3.346021","3",10,"feature_4","tree",1,1
+"PDD_1","3.336665","1",10,"feature_4","tree",1,1
+"PDD_2","3.349413","4",10,"feature_4;feature_2","tree",1,1
+"PDD_3","3.326419","8",10,"feature_4;feature_2;feature_1","tree",1,1
+"Base Test","3.025395","0",10,"feature_4","tree",1,1
+"Base Train","2.984331","0",10,"feature_4","tree",1,1
+"batch sizes","5332","1334",10,"feature_4","tree",1,1
+"KSWIN","1.928242","20",20,"feature_4","rf",1,1
+"PageHinkley","2.06544","5",20,"feature_4","rf",1,1
+"PDD_C","1.93196","17",20,"feature_4","rf",1,1
+"PDD_1","1.977158","10",20,"feature_4","rf",1,1
+"PDD_2","1.953522","16",20,"feature_4;feature_2","rf",1,1
+"PDD_3","1.941513","17",20,"feature_4;feature_2;feature_1","rf",1,1
+"Base Test","1.807443","0",20,"feature_4","rf",1,1
+"Base Train","0.7709039","0",20,"feature_4","rf",1,1
+"batch sizes","3200","800",20,"feature_4","rf",1,1
+"KSWIN","2.800709","19",20,"feature_4","linear",1,1
+"PageHinkley","2.79739","10",20,"feature_4","linear",1,1
+"PDD_C","2.807288","1",20,"feature_4","linear",1,1
+"PDD_1","2.807288","1",20,"feature_4","linear",1,1
+"PDD_2","2.807877","2",20,"feature_4;feature_2","linear",1,1
+"PDD_3","2.800074","18",20,"feature_4;feature_2;feature_1","linear",1,1
+"Base Test","2.559085","0",20,"feature_4","linear",1,1
+"Base Train","2.557912","0",20,"feature_4","linear",1,1
+"batch sizes","3200","800",20,"feature_4","linear",1,1
+"KSWIN","3.276538","19",20,"feature_4","tree",1,1
+"PageHinkley","3.281308","16",20,"feature_4","tree",1,1
+"PDD_C","3.293577","2",20,"feature_4","tree",1,1
+"PDD_1","3.228705","4",20,"feature_4","tree",1,1
+"PDD_2","3.225532","9",20,"feature_4;feature_1","tree",1,1
+"PDD_3","3.27986","15",20,"feature_4;feature_1;feature_2","tree",1,1
+"Base Test","3.157366","0",20,"feature_4","tree",1,1
+"Base Train","2.920401","0",20,"feature_4","tree",1,1
+"batch sizes","3200","800",20,"feature_4","tree",1,1
+"KSWIN","1.924375","25",30,"feature_4","rf",1,1
+"PageHinkley","2.013893","7",30,"feature_4","rf",1,1
+"PDD_C","2.046684","4",30,"feature_4","rf",1,1
+"PDD_1","1.999299","18",30,"feature_4","rf",1,1
+"PDD_2","1.971171","17",30,"feature_4;feature_1","rf",1,1
+"PDD_3","1.943314","24",30,"feature_4;feature_1;feature_2","rf",1,1
+"Base Test","1.766121","0",30,"feature_4","rf",1,1
+"Base Train","0.7949281","0",30,"feature_4","rf",1,1
+"batch sizes","2285","572",30,"feature_4","rf",1,1
+"KSWIN","2.783512","30",30,"feature_4","linear",1,1
+"PageHinkley","2.775494","9",30,"feature_4","linear",1,1
+"PDD_C","2.792438","1",30,"feature_4","linear",1,1
+"PDD_1","2.794334","1",30,"feature_4","linear",1,1
+"PDD_2","2.787358","27",30,"feature_4;feature_2","linear",1,1
+"PDD_3","2.782978","28",30,"feature_4;feature_2;feature_1","linear",1,1
+"Base Test","2.595838","0",30,"feature_4","linear",1,1
+"Base Train","2.546311","0",30,"feature_4","linear",1,1
+"batch sizes","2285","572",30,"feature_4","linear",1,1
+"KSWIN","3.287508","23",30,"feature_4","tree",1,1
+"PageHinkley","3.271003","16",30,"feature_4","tree",1,1
+"PDD_C","3.255953","2",30,"feature_4","tree",1,1
+"PDD_1","3.284599","8",30,"feature_4","tree",1,1
+"PDD_2","3.247463","20",30,"feature_4;feature_2","tree",1,1
+"PDD_3","3.27646","24",30,"feature_4;feature_2;feature_1","tree",1,1
+"Base Test","3.040048","0",30,"feature_4","tree",1,1
+"Base Train","2.974407","0",30,"feature_4","tree",1,1
+"batch sizes","2285","572",30,"feature_4","tree",1,1
+"KSWIN","1.998657","10",10,"feature_4","rf",2,2
+"PageHinkley","2.057447","3",10,"feature_4","rf",2,2
+"PDD_C","2.04445","2",10,"feature_4","rf",2,2
+"PDD_1","2.091111","0",10,"feature_4","rf",2,2
+"PDD_2","2.091111","0",10,"feature_4;feature_2","rf",2,2
+"PDD_3","2.091111","0",10,"feature_4;feature_2;feature_1","rf",2,2
+"Base Test","1.663922","0",10,"feature_4","rf",2,2
+"Base Train","0.7430855","0",10,"feature_4","rf",2,2
+"batch sizes","5332","1334",10,"feature_4","rf",2,2
+"KSWIN","2.835634","10",10,"feature_4","linear",2,2
+"PageHinkley","2.832767","5",10,"feature_4","linear",2,2
+"PDD_C","2.844258","2",10,"feature_4","linear",2,2
+"PDD_1","2.842169","0",10,"feature_4","linear",2,2
+"PDD_2","2.842214","4",10,"feature_4;feature_2","linear",2,2
+"PDD_3","2.840328","4",10,"feature_4;feature_2;feature_1","linear",2,2
+"Base Test","2.643223","0",10,"feature_4","linear",2,2
+"Base Train","2.592646","0",10,"feature_4","linear",2,2
+"batch sizes","5332","1334",10,"feature_4","linear",2,2
+"KSWIN","3.336439","10",10,"feature_4","tree",2,2
+"PageHinkley","3.359554","9",10,"feature_4","tree",2,2
+"PDD_C","3.283912","0",10,"feature_4","tree",2,2
+"PDD_1","3.283912","0",10,"feature_4","tree",2,2
+"PDD_2","3.318963","1",10,"feature_4;feature_2","tree",2,2
+"PDD_3","3.311368","3",10,"feature_4;feature_2;feature_1","tree",2,2
+"Base Test","3.025395","0",10,"feature_4","tree",2,2
+"Base Train","2.984331","0",10,"feature_4","tree",2,2
+"batch sizes","5332","1334",10,"feature_4","tree",2,2
+"KSWIN","1.928242","20",20,"feature_4","rf",2,2
+"PageHinkley","2.06544","5",20,"feature_4","rf",2,2
+"PDD_C","1.965726","7",20,"feature_4","rf",2,2
+"PDD_1","2.037917","2",20,"feature_4","rf",2,2
+"PDD_2","2.037917","2",20,"feature_4;feature_2","rf",2,2
+"PDD_3","2.020459","4",20,"feature_4;feature_2;feature_1","rf",2,2
+"Base Test","1.807443","0",20,"feature_4","rf",2,2
+"Base Train","0.7709039","0",20,"feature_4","rf",2,2
+"batch sizes","3200","800",20,"feature_4","rf",2,2
+"KSWIN","2.800709","19",20,"feature_4","linear",2,2
+"PageHinkley","2.79739","10",20,"feature_4","linear",2,2
+"PDD_C","2.807288","1",20,"feature_4","linear",2,2
+"PDD_1","2.807288","1",20,"feature_4","linear",2,2
+"PDD_2","2.807877","2",20,"feature_4;feature_2","linear",2,2
+"PDD_3","2.796343","10",20,"feature_4;feature_2;feature_1","linear",2,2
+"Base Test","2.559085","0",20,"feature_4","linear",2,2
+"Base Train","2.557912","0",20,"feature_4","linear",2,2
+"batch sizes","3200","800",20,"feature_4","linear",2,2
+"KSWIN","3.276538","19",20,"feature_4","tree",2,2
+"PageHinkley","3.281308","16",20,"feature_4","tree",2,2
+"PDD_C","3.262562","4",20,"feature_4","tree",2,2
+"PDD_1","3.261163","1",20,"feature_4","tree",2,2
+"PDD_2","3.261163","1",20,"feature_4;feature_1","tree",2,2
+"PDD_3","3.26291","2",20,"feature_4;feature_1;feature_2","tree",2,2
+"Base Test","3.157366","0",20,"feature_4","tree",2,2
+"Base Train","2.920401","0",20,"feature_4","tree",2,2
+"batch sizes","3200","800",20,"feature_4","tree",2,2
+"KSWIN","1.924375","25",30,"feature_4","rf",2,2
+"PageHinkley","2.013893","7",30,"feature_4","rf",2,2
+"PDD_C","2.093629","0",30,"feature_4","rf",2,2
+"PDD_1","2.093629","0",30,"feature_4","rf",2,2
+"PDD_2","2.063145","3",30,"feature_4;feature_1","rf",2,2
+"PDD_3","2.034737","6",30,"feature_4;feature_1;feature_2","rf",2,2
+"Base Test","1.766121","0",30,"feature_4","rf",2,2
+"Base Train","0.7949281","0",30,"feature_4","rf",2,2
+"batch sizes","2285","572",30,"feature_4","rf",2,2
+"KSWIN","2.783512","30",30,"feature_4","linear",2,2
+"PageHinkley","2.775494","9",30,"feature_4","linear",2,2
+"PDD_C","2.794425","1",30,"feature_4","linear",2,2
+"PDD_1","2.794334","1",30,"feature_4","linear",2,2
+"PDD_2","2.781051","19",30,"feature_4;feature_2","linear",2,2
+"PDD_3","2.786743","26",30,"feature_4;feature_2;feature_1","linear",2,2
+"Base Test","2.595838","0",30,"feature_4","linear",2,2
+"Base Train","2.546311","0",30,"feature_4","linear",2,2
+"batch sizes","2285","572",30,"feature_4","linear",2,2
+"KSWIN","3.287508","23",30,"feature_4","tree",2,2
+"PageHinkley","3.271003","16",30,"feature_4","tree",2,2
+"PDD_C","3.268751","1",30,"feature_4","tree",2,2
+"PDD_1","3.244327","0",30,"feature_4","tree",2,2
+"PDD_2","3.244327","0",30,"feature_4;feature_2","tree",2,2
+"PDD_3","3.237905","2",30,"feature_4;feature_2;feature_1","tree",2,2
+"Base Test","3.040048","0",30,"feature_4","tree",2,2
+"Base Train","2.974407","0",30,"feature_4","tree",2,2
+"batch sizes","2285","572",30,"feature_4","tree",2,2
+"KSWIN","1.998657","10",10,"feature_4","rf",3,3
+"PageHinkley","2.057447","3",10,"feature_4","rf",3,3
+"PDD_C","2.091111","0",10,"feature_4","rf",3,3
+"PDD_1","2.091111","0",10,"feature_4","rf",3,3
+"PDD_2","2.091111","0",10,"feature_4;feature_2","rf",3,3
+"PDD_3","2.091111","0",10,"feature_4;feature_2;feature_1","rf",3,3
+"Base Test","1.663922","0",10,"feature_4","rf",3,3
+"Base Train","0.7430855","0",10,"feature_4","rf",3,3
+"batch sizes","5332","1334",10,"feature_4","rf",3,3
+"KSWIN","2.835634","10",10,"feature_4","linear",3,3
+"PageHinkley","2.832767","5",10,"feature_4","linear",3,3
+"PDD_C","2.844258","2",10,"feature_4","linear",3,3
+"PDD_1","2.842169","0",10,"feature_4","linear",3,3
+"PDD_2","2.841126","1",10,"feature_4;feature_2","linear",3,3
+"PDD_3","2.841126","1",10,"feature_4;feature_2;feature_1","linear",3,3
+"Base Test","2.643223","0",10,"feature_4","linear",3,3
+"Base Train","2.592646","0",10,"feature_4","linear",3,3
+"batch sizes","5332","1334",10,"feature_4","linear",3,3
+"KSWIN","3.336439","10",10,"feature_4","tree",3,3
+"PageHinkley","3.359554","9",10,"feature_4","tree",3,3
+"PDD_C","3.283912","0",10,"feature_4","tree",3,3
+"PDD_1","3.283912","0",10,"feature_4","tree",3,3
+"PDD_2","3.283912","1",10,"feature_4;feature_2","tree",3,3
+"PDD_3","3.283912","1",10,"feature_4;feature_2;feature_1","tree",3,3
+"Base Test","3.025395","0",10,"feature_4","tree",3,3
+"Base Train","2.984331","0",10,"feature_4","tree",3,3
+"batch sizes","5332","1334",10,"feature_4","tree",3,3
+"KSWIN","1.928242","20",20,"feature_4","rf",3,3
+"PageHinkley","2.06544","5",20,"feature_4","rf",3,3
+"PDD_C","2.098068","0",20,"feature_4","rf",3,3
+"PDD_1","2.098068","0",20,"feature_4","rf",3,3
+"PDD_2","2.098068","0",20,"feature_4;feature_2","rf",3,3
+"PDD_3","2.098068","0",20,"feature_4;feature_2;feature_1","rf",3,3
+"Base Test","1.807443","0",20,"feature_4","rf",3,3
+"Base Train","0.7709039","0",20,"feature_4","rf",3,3
+"batch sizes","3200","800",20,"feature_4","rf",3,3
+"KSWIN","2.800709","19",20,"feature_4","linear",3,3
+"PageHinkley","2.79739","10",20,"feature_4","linear",3,3
+"PDD_C","2.807288","1",20,"feature_4","linear",3,3
+"PDD_1","2.809186","1",20,"feature_4","linear",3,3
+"PDD_2","2.809186","1",20,"feature_4;feature_2","linear",3,3
+"PDD_3","2.809186","1",20,"feature_4;feature_2;feature_1","linear",3,3
+"Base Test","2.559085","0",20,"feature_4","linear",3,3
+"Base Train","2.557912","0",20,"feature_4","linear",3,3
+"batch sizes","3200","800",20,"feature_4","linear",3,3
+"KSWIN","3.276538","19",20,"feature_4","tree",3,3
+"PageHinkley","3.281308","16",20,"feature_4","tree",3,3
+"PDD_C","3.260279","2",20,"feature_4","tree",3,3
+"PDD_1","3.212899","1",20,"feature_4","tree",3,3
+"PDD_2","3.212899","1",20,"feature_4;feature_1","tree",3,3
+"PDD_3","3.212899","1",20,"feature_4;feature_1;feature_2","tree",3,3
+"Base Test","3.157366","0",20,"feature_4","tree",3,3
+"Base Train","2.920401","0",20,"feature_4","tree",3,3
+"batch sizes","3200","800",20,"feature_4","tree",3,3
+"KSWIN","1.924375","25",30,"feature_4","rf",3,3
+"PageHinkley","2.013893","7",30,"feature_4","rf",3,3
+"PDD_C","2.093629","0",30,"feature_4","rf",3,3
+"PDD_1","2.093629","0",30,"feature_4","rf",3,3
+"PDD_2","2.075125","1",30,"feature_4;feature_1","rf",3,3
+"PDD_3","2.075125","1",30,"feature_4;feature_1;feature_2","rf",3,3
+"Base Test","1.766121","0",30,"feature_4","rf",3,3
+"Base Train","0.7949281","0",30,"feature_4","rf",3,3
+"batch sizes","2285","572",30,"feature_4","rf",3,3
+"KSWIN","2.783512","30",30,"feature_4","linear",3,3
+"PageHinkley","2.775494","9",30,"feature_4","linear",3,3
+"PDD_C","2.799552","0",30,"feature_4","linear",3,3
+"PDD_1","2.799552","0",30,"feature_4","linear",3,3
+"PDD_2","2.792158","4",30,"feature_4;feature_2","linear",3,3
+"PDD_3","2.782383","24",30,"feature_4;feature_2;feature_1","linear",3,3
+"Base Test","2.595838","0",30,"feature_4","linear",3,3
+"Base Train","2.546311","0",30,"feature_4","linear",3,3
+"batch sizes","2285","572",30,"feature_4","linear",3,3
+"KSWIN","3.287508","23",30,"feature_4","tree",3,3
+"PageHinkley","3.271003","16",30,"feature_4","tree",3,3
+"PDD_C","3.244327","0",30,"feature_4","tree",3,3
+"PDD_1","3.244327","0",30,"feature_4","tree",3,3
+"PDD_2","3.244327","0",30,"feature_4;feature_2","tree",3,3
+"PDD_3","3.244327","0",30,"feature_4;feature_2;feature_1","tree",3,3
+"Base Test","3.040048","0",30,"feature_4","tree",3,3
+"Base Train","2.974407","0",30,"feature_4","tree",3,3
+"batch sizes","2285","572",30,"feature_4","tree",3,3
+"KSWIN","1.998657","10",10,"feature_4","rf",4,4
+"PageHinkley","2.057447","3",10,"feature_4","rf",4,4
+"PDD_C","2.091111","0",10,"feature_4","rf",4,4
+"PDD_1","2.091111","0",10,"feature_4","rf",4,4
+"PDD_2","2.091111","0",10,"feature_4;feature_2","rf",4,4
+"PDD_3","2.091111","0",10,"feature_4;feature_2;feature_1","rf",4,4
+"Base Test","1.663922","0",10,"feature_4","rf",4,4
+"Base Train","0.7430855","0",10,"feature_4","rf",4,4
+"batch sizes","5332","1334",10,"feature_4","rf",4,4
+"KSWIN","2.835634","10",10,"feature_4","linear",4,4
+"PageHinkley","2.832767","5",10,"feature_4","linear",4,4
+"PDD_C","2.844258","2",10,"feature_4","linear",4,4
+"PDD_1","2.842169","0",10,"feature_4","linear",4,4
+"PDD_2","2.842169","0",10,"feature_4;feature_2","linear",4,4
+"PDD_3","2.841263","2",10,"feature_4;feature_2;feature_1","linear",4,4
+"Base Test","2.643223","0",10,"feature_4","linear",4,4
+"Base Train","2.592646","0",10,"feature_4","linear",4,4
+"batch sizes","5332","1334",10,"feature_4","linear",4,4
+"KSWIN","3.336439","10",10,"feature_4","tree",4,4
+"PageHinkley","3.359554","9",10,"feature_4","tree",4,4
+"PDD_C","3.283912","0",10,"feature_4","tree",4,4
+"PDD_1","3.283912","0",10,"feature_4","tree",4,4
+"PDD_2","3.283912","0",10,"feature_4;feature_2","tree",4,4
+"PDD_3","3.283912","0",10,"feature_4;feature_2;feature_1","tree",4,4
+"Base Test","3.025395","0",10,"feature_4","tree",4,4
+"Base Train","2.984331","0",10,"feature_4","tree",4,4
+"batch sizes","5332","1334",10,"feature_4","tree",4,4
+"KSWIN","1.928242","20",20,"feature_4","rf",4,4
+"PageHinkley","2.06544","5",20,"feature_4","rf",4,4
+"PDD_C","2.098068","0",20,"feature_4","rf",4,4
+"PDD_1","2.098068","0",20,"feature_4","rf",4,4
+"PDD_2","2.098068","0",20,"feature_4;feature_2","rf",4,4
+"PDD_3","2.098068","0",20,"feature_4;feature_2;feature_1","rf",4,4
+"Base Test","1.807443","0",20,"feature_4","rf",4,4
+"Base Train","0.7709039","0",20,"feature_4","rf",4,4
+"batch sizes","3200","800",20,"feature_4","rf",4,4
+"KSWIN","2.800709","19",20,"feature_4","linear",4,4
+"PageHinkley","2.79739","10",20,"feature_4","linear",4,4
+"PDD_C","2.807288","1",20,"feature_4","linear",4,4
+"PDD_1","2.809186","1",20,"feature_4","linear",4,4
+"PDD_2","2.809186","1",20,"feature_4;feature_2","linear",4,4
+"PDD_3","2.809186","1",20,"feature_4;feature_2;feature_1","linear",4,4
+"Base Test","2.559085","0",20,"feature_4","linear",4,4
+"Base Train","2.557912","0",20,"feature_4","linear",4,4
+"batch sizes","3200","800",20,"feature_4","linear",4,4
+"KSWIN","3.276538","19",20,"feature_4","tree",4,4
+"PageHinkley","3.281308","16",20,"feature_4","tree",4,4
+"PDD_C","3.238696","0",20,"feature_4","tree",4,4
+"PDD_1","3.238696","0",20,"feature_4","tree",4,4
+"PDD_2","3.238696","0",20,"feature_4;feature_1","tree",4,4
+"PDD_3","3.238696","0",20,"feature_4;feature_1;feature_2","tree",4,4
+"Base Test","3.157366","0",20,"feature_4","tree",4,4
+"Base Train","2.920401","0",20,"feature_4","tree",4,4
+"batch sizes","3200","800",20,"feature_4","tree",4,4
+"KSWIN","1.924375","25",30,"feature_4","rf",4,4
+"PageHinkley","2.013893","7",30,"feature_4","rf",4,4
+"PDD_C","2.093629","0",30,"feature_4","rf",4,4
+"PDD_1","2.093629","0",30,"feature_4","rf",4,4
+"PDD_2","2.093629","0",30,"feature_4;feature_1","rf",4,4
+"PDD_3","2.093629","0",30,"feature_4;feature_1;feature_2","rf",4,4
+"Base Test","1.766121","0",30,"feature_4","rf",4,4
+"Base Train","0.7949281","0",30,"feature_4","rf",4,4
+"batch sizes","2285","572",30,"feature_4","rf",4,4
+"KSWIN","2.783512","30",30,"feature_4","linear",4,4
+"PageHinkley","2.775494","9",30,"feature_4","linear",4,4
+"PDD_C","2.799552","0",30,"feature_4","linear",4,4
+"PDD_1","2.799552","0",30,"feature_4","linear",4,4
+"PDD_2","2.792158","3",30,"feature_4;feature_2","linear",4,4
+"PDD_3","2.784549","14",30,"feature_4;feature_2;feature_1","linear",4,4
+"Base Test","2.595838","0",30,"feature_4","linear",4,4
+"Base Train","2.546311","0",30,"feature_4","linear",4,4
+"batch sizes","2285","572",30,"feature_4","linear",4,4
+"KSWIN","3.287508","23",30,"feature_4","tree",4,4
+"PageHinkley","3.271003","16",30,"feature_4","tree",4,4
+"PDD_C","3.244327","0",30,"feature_4","tree",4,4
+"PDD_1","3.244327","0",30,"feature_4","tree",4,4
+"PDD_2","3.244327","0",30,"feature_4;feature_2","tree",4,4
+"PDD_3","3.244327","0",30,"feature_4;feature_2;feature_1","tree",4,4
+"Base Test","3.040048","0",30,"feature_4","tree",4,4
+"Base Train","2.974407","0",30,"feature_4","tree",4,4
+"batch sizes","2285","572",30,"feature_4","tree",4,4
+"KSWIN","1.998657","10",10,"feature_4","rf",5,5
+"PageHinkley","2.057447","3",10,"feature_4","rf",5,5
+"PDD_C","2.091111","0",10,"feature_4","rf",5,5
+"PDD_1","2.091111","0",10,"feature_4","rf",5,5
+"PDD_2","2.091111","0",10,"feature_4;feature_2","rf",5,5
+"PDD_3","2.091111","0",10,"feature_4;feature_2;feature_1","rf",5,5
+"Base Test","1.663922","0",10,"feature_4","rf",5,5
+"Base Train","0.7430855","0",10,"feature_4","rf",5,5
+"batch sizes","5332","1334",10,"feature_4","rf",5,5
+"KSWIN","2.835634","10",10,"feature_4","linear",5,5
+"PageHinkley","2.832767","5",10,"feature_4","linear",5,5
+"PDD_C","2.843165","1",10,"feature_4","linear",5,5
+"PDD_1","2.842169","0",10,"feature_4","linear",5,5
+"PDD_2","2.842169","0",10,"feature_4;feature_2","linear",5,5
+"PDD_3","2.842169","0",10,"feature_4;feature_2;feature_1","linear",5,5
+"Base Test","2.643223","0",10,"feature_4","linear",5,5
+"Base Train","2.592646","0",10,"feature_4","linear",5,5
+"batch sizes","5332","1334",10,"feature_4","linear",5,5
+"KSWIN","3.336439","10",10,"feature_4","tree",5,5
+"PageHinkley","3.359554","9",10,"feature_4","tree",5,5
+"PDD_C","3.283912","0",10,"feature_4","tree",5,5
+"PDD_1","3.283912","0",10,"feature_4","tree",5,5
+"PDD_2","3.283912","0",10,"feature_4;feature_2","tree",5,5
+"PDD_3","3.283912","0",10,"feature_4;feature_2;feature_1","tree",5,5
+"Base Test","3.025395","0",10,"feature_4","tree",5,5
+"Base Train","2.984331","0",10,"feature_4","tree",5,5
+"batch sizes","5332","1334",10,"feature_4","tree",5,5
+"KSWIN","1.928242","20",20,"feature_4","rf",5,5
+"PageHinkley","2.06544","5",20,"feature_4","rf",5,5
+"PDD_C","2.098068","0",20,"feature_4","rf",5,5
+"PDD_1","2.098068","0",20,"feature_4","rf",5,5
+"PDD_2","2.098068","0",20,"feature_4;feature_2","rf",5,5
+"PDD_3","2.098068","0",20,"feature_4;feature_2;feature_1","rf",5,5
+"Base Test","1.807443","0",20,"feature_4","rf",5,5
+"Base Train","0.7709039","0",20,"feature_4","rf",5,5
+"batch sizes","3200","800",20,"feature_4","rf",5,5
+"KSWIN","2.800709","19",20,"feature_4","linear",5,5
+"PageHinkley","2.79739","10",20,"feature_4","linear",5,5
+"PDD_C","2.807288","1",20,"feature_4","linear",5,5
+"PDD_1","2.809186","1",20,"feature_4","linear",5,5
+"PDD_2","2.809186","1",20,"feature_4;feature_2","linear",5,5
+"PDD_3","2.809186","1",20,"feature_4;feature_2;feature_1","linear",5,5
+"Base Test","2.559085","0",20,"feature_4","linear",5,5
+"Base Train","2.557912","0",20,"feature_4","linear",5,5
+"batch sizes","3200","800",20,"feature_4","linear",5,5
+"KSWIN","3.276538","19",20,"feature_4","tree",5,5
+"PageHinkley","3.281308","16",20,"feature_4","tree",5,5
+"PDD_C","3.238696","0",20,"feature_4","tree",5,5
+"PDD_1","3.238696","0",20,"feature_4","tree",5,5
+"PDD_2","3.238696","0",20,"feature_4;feature_1","tree",5,5
+"PDD_3","3.238696","0",20,"feature_4;feature_1;feature_2","tree",5,5
+"Base Test","3.157366","0",20,"feature_4","tree",5,5
+"Base Train","2.920401","0",20,"feature_4","tree",5,5
+"batch sizes","3200","800",20,"feature_4","tree",5,5
+"KSWIN","1.924375","25",30,"feature_4","rf",5,5
+"PageHinkley","2.013893","7",30,"feature_4","rf",5,5
+"PDD_C","2.093629","0",30,"feature_4","rf",5,5
+"PDD_1","2.093629","0",30,"feature_4","rf",5,5
+"PDD_2","2.093629","0",30,"feature_4;feature_1","rf",5,5
+"PDD_3","2.093629","0",30,"feature_4;feature_1;feature_2","rf",5,5
+"Base Test","1.766121","0",30,"feature_4","rf",5,5
+"Base Train","0.7949281","0",30,"feature_4","rf",5,5
+"batch sizes","2285","572",30,"feature_4","rf",5,5
+"KSWIN","2.783512","30",30,"feature_4","linear",5,5
+"PageHinkley","2.775494","9",30,"feature_4","linear",5,5
+"PDD_C","2.799552","0",30,"feature_4","linear",5,5
+"PDD_1","2.799552","0",30,"feature_4","linear",5,5
+"PDD_2","2.792353","2",30,"feature_4;feature_2","linear",5,5
+"PDD_3","2.784035","11",30,"feature_4;feature_2;feature_1","linear",5,5
+"Base Test","2.595838","0",30,"feature_4","linear",5,5
+"Base Train","2.546311","0",30,"feature_4","linear",5,5
+"batch sizes","2285","572",30,"feature_4","linear",5,5
+"KSWIN","3.287508","23",30,"feature_4","tree",5,5
+"PageHinkley","3.271003","16",30,"feature_4","tree",5,5
+"PDD_C","3.244327","0",30,"feature_4","tree",5,5
+"PDD_1","3.244327","0",30,"feature_4","tree",5,5
+"PDD_2","3.244327","0",30,"feature_4;feature_2","tree",5,5
+"PDD_3","3.244327","0",30,"feature_4;feature_2;feature_1","tree",5,5
+"Base Test","3.040048","0",30,"feature_4","tree",5,5
+"Base Train","2.974407","0",30,"feature_4","tree",5,5
+"batch sizes","2285","572",30,"feature_4","tree",5,5

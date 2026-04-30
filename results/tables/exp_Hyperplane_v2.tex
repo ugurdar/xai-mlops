@@ -1,0 +1,45 @@
+\begin{table}[h]
+    \centering
+    \scriptsize
+    \caption{The results of experiments on the \texttt{Hyperplane} dataset}
+    \label{tab:exp_Hyperplane}
+    \resizebox{\linewidth}{!}{
+    \color{red}
+    \begin{tabular}{llcrcrcr}\toprule
+        & & \multicolumn{6}{c}{\textbf{\#batch}} \\
+        \cmidrule(lr){3-8}
+        & & \multicolumn{2}{c}{\textbf{10}} & \multicolumn{2}{c}{\textbf{20}} & \multicolumn{2}{c}{\textbf{30}} \\
+        \cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8}
+        \textbf{Model} & \textbf{Method} & {\textbf{Acc.}} & \textbf{\#drifts} & {\textbf{Acc.}} & \textbf{\#drifts} & {\textbf{Acc.}} & \textbf{\#drifts} \\ \midrule
+        \multirow{10}{*}{LR} & HDDM-A & 0.8662 & 1 & 0.8204 & 2 & 0.7568 & 3 \\
+         & HDDM-W & 0.8377 & 1 & 0.8456 & 3 & 0.8152 & 4 \\
+         & KSWIN & 0.8639 & 9 & 0.8458 & 13 & 0.8285 & 18 \\
+         & PH & 0.8648 & 0 & 0.8187 & 1 & 0.7455 & 2 \\
+         & DDM & 0.8648 & 0 & 0.8071 & 1 & 0.7455 & 2 \\
+         & EDDM & 0.8648 & 0 & 0.8485 & 13 & 0.8348 & 5 \\
+         & PDD\_C & 0.8648 & 0 & 0.6792 & 0 & 0.5219 & 0 \\
+         & PDD\_1 & 0.8648 & 0 & 0.6792 & 0 & 0.5219 & 0 \\
+         & PDD\_2 & 0.8648 & 0 & 0.6792 & 0 & 0.5219 & 0 \\
+         & PDD\_3 & 0.8648 & 0 & 0.6792 & 0 & 0.5219 & 0 \\ \midrule
+        \multirow{10}{*}{DT} & HDDM-A & 0.8398 & 0 & 0.7670 & 3 & 0.6921 & 3 \\
+         & HDDM-W & 0.8398 & 0 & 0.7752 & 2 & 0.7316 & 4 \\
+         & KSWIN & 0.8520 & 9 & 0.8429 & 17 & 0.8162 & 19 \\
+         & PH & 0.8398 & 0 & 0.7014 & 1 & 0.6929 & 1 \\
+         & DDM & 0.8398 & 0 & 0.7014 & 1 & 0.7283 & 3 \\
+         & EDDM & 0.8496 & 10 & 0.8562 & 15 & 0.8379 & 11 \\
+         & PDD\_C & 0.8435 & 1 & 0.8242 & 15 & 0.4924 & 1 \\
+         & PDD\_1 & 0.8474 & 1 & 0.7943 & 2 & 0.4552 & 0 \\
+         & PDD\_2 & 0.8474 & 1 & 0.7819 & 6 & 0.7629 & 13 \\
+         & PDD\_3 & 0.8474 & 1 & 0.7819 & 6 & 0.7629 & 13 \\ \midrule
+        \multirow{10}{*}{RF} & HDDM-A & 0.7834 & 0 & 0.6809 & 1 & 0.6267 & 1 \\
+         & HDDM-W & 0.7794 & 2 & 0.7615 & 3 & 0.7536 & 6 \\
+         & KSWIN & 0.8219 & 10 & 0.8144 & 17 & 0.7948 & 22 \\
+         & PH & 0.7834 & 0 & 0.7033 & 1 & 0.6267 & 1 \\
+         & DDM & 0.7834 & 0 & 0.7290 & 3 & 0.6267 & 1 \\
+         & EDDM & 0.7834 & 0 & 0.8072 & 16 & 0.7957 & 24 \\
+         & PDD\_C & 0.7831 & 1 & 0.7189 & 4 & 0.5099 & 0 \\
+         & PDD\_1 & 0.7831 & 0 & 0.6971 & 1 & 0.5099 & 0 \\
+         & PDD\_2 & 0.8193 & 4 & 0.7433 & 6 & 0.6617 & 9 \\
+         & PDD\_3 & 0.8193 & 4 & 0.7433 & 6 & 0.6617 & 9 \\\bottomrule
+    \end{tabular}}
+\end{table}
