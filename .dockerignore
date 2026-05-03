@@ -1,0 +1,24 @@
+.git
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+.claude
+
+results/
+logs/
+
+# Paper files
+article.tex
+review.tex
+reviews.md
+revision_plan.md
+results.md
+steps.md
+
+# renv library (rebuilt inside container)
+renv/library/
+renv/staging/
+
+Rplots.pdf

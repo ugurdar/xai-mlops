@@ -1,9 +1,32 @@
+# R
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+Rplots.pdf
+
+# renv (lock file is tracked; library is local)
+renv/library/
+renv/staging/
+
+# OS
 .DS_Store
+
+# Logs
+logs/
+
+# Claude Code
+.claude
+
+# Generated LaTeX tables
+results/tables/*.tex
+
+# Paper / review artifacts (not for code repo)
+article.tex
+review.tex
 reviews.md
 reviews_summary.md
+revision_plan.md
+results.md
+steps.md
 solutions.md
-.claude
