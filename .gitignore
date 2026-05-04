@@ -25,6 +25,7 @@ results/tables/*.tex
 sections/
 article.tex
 review.tex
+reviews.tex
 reviews.txt
 reviews.md
 reviews_summary.md
