@@ -1,4 +1,4 @@
-# PDD_k: Partial Dependence-Based Data Drift Detection with Top-k Features
+# From XAI to MLOps: Explainable Concept Drift Detection with the Partial Dependence Profiles-Based Approach paper 
 
 R implementation of the PDD_k method for concept drift detection using partial dependence profiles. PDD_k monitors the top-k most important features via PDP-based L2 and L2-derivative statistics, providing interpretable drift detection for streaming data.
 
